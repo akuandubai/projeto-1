@@ -1,0 +1,24 @@
+.rodape {
+	height: 150px;
+	background: #9E30DB;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.rodape_copyright-texto {
+	font-family: 'Karla', sans-serif;
+	font-weight: 800;
+	font-size: 0.93em;
+	margin-top: 20px;
+}
+
+.rodape_github-icon {
+	width: 60px;
+}
+
+.rodape_github-icon:hover {
+	transform: scale(1.15);
+	transition: 400ms;
+}

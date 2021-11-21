@@ -1,0 +1,110 @@
+.opcoes {
+	background: linear-gradient(#E741E7, #9E30DB);
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.opcoes_jogo-adivinhacao {
+	margin-bottom: 50px;
+}
+
+.opcoes_jogo-adivinhacao, .opcoes_jogo-botao {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 70%;
+	height: 380px;
+	align-items: center;
+	border-radius: 25px;
+	padding: 2rem;
+	justify-content: space-around;
+	background: linear-gradient(#E28CC4, #DD79E0);
+}
+
+.opcoes_jogo-adivinhacao:hover {
+	background: #E28CC4;
+	transition: 500ms;
+}
+
+.opcoes_jogo-botao:hover {
+	background: #E28CC4;
+	transition: 500ms;
+}
+
+.opcoes-jogo-adivinhacao-descricao-botao, ..opcoes-jogo-botao-descricao-botao {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 1em;
+	align-items: center;
+}
+
+.opcoes-jogo-adivinhacao-descricao, .opcoes-jogo-botao-descricao {
+	line-height: 1.3em;
+	font-size: 1.09rem;
+	font-weight: 600;
+	word-spacing: 0.4em;
+	margin-bottom: 30px;
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+	color: #000;
+}
+
+.opcoes_jogo-adivinhacao-botao, .opcoes_jogo-botao-botao {
+	height: 60px;
+	width: 100%;
+	background: #EE99F1;
+	border: 1px solid transparent;
+	border-radius: 60px;
+	font-weight: bold;
+	font-family: 'Karla', sans-serif;
+	font-size: 1.25em;
+}
+
+
+.opcoes_jogo-adivinhacao-botao:hover {
+	transform: scale(1.1);
+	background: #B12FB6;
+	color: white;
+	cursor: pointer;
+	transition: 500ms;
+}
+
+.opcoes_jogo-botao-botao:hover {
+	transform: scale(1.1);
+	background: #B12FB6;
+	color: white;
+	cursor: pointer;
+	transition: 500ms;
+}
+
+.opcoes-jogo-adivinhacao-imagem, .opcoes-jogo-botao-imagem{
+	width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+	.opcoes_jogo-adivinhacao, .opcoes_jogo-botao {
+		flex-direction: row;
+		height: 200px;
+	}
+
+	.opcoes-jogo-adivinhacao-descricao-botao, .opcoes-jogo-botao-descricao-botao {
+		width: 70%;
+	}
+
+	.opcoes-jogo-adivinhacao-imagem, .opcoes-jogo-botao-imagem{
+		width: 20%;
+		max-width: 150px;
+	}
+
+	.opcoes-jogo-adivinhacao-descricao, .opcoes-jogo-botao-descricao {
+		line-height: 1.9rem;
+		font-size: 1.15rem;
+	}
+
+	.opcoes_jogo-adivinhacao-botao, .opcoes_jogo-botao-botao {
+		font-size: 1.2em;
+	}
+}

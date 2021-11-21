@@ -1,0 +1,24 @@
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	align-items: center;
+	background: /*#9E30DB*/ #E741E7;
+}
+
+.cabecalho_logo {
+	width: 70px;
+}
+
+.cabecalho_navegacao-sobre {
+	font-family: 'Karla', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	font-size: 1.1rem;
+}
+
+.cabecalho_navegacao-sobre:hover {
+	color: #FFF;
+	transition: 400ms;
+}
